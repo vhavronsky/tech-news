@@ -1,6 +1,6 @@
 import React from "react";
 
-function PostItem({post, number}) {
+function PostItem({post, number, remove}) {
     return (
         <div className="post">
             <div className="post__content">
@@ -10,7 +10,7 @@ function PostItem({post, number}) {
                 </div>
             </div>
             <div className="post_btns">
-                <button>Delete</button>
+                <button onClick={() => remove(post)}>Delete</button>
             </div>
         </div>
 )
