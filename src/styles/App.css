@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#root {
+    display: flex;
+    justify-content: center;
+}
+
+.App {
+    width: 800px;
+}
+
+.post {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    border: 1px solid rgb(21, 129, 201);
+    margin-top: 15px;
+    box-shadow: 0 0 5px #000000;
+}
+
+.post__content > p {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.post__content > div {
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+
+.post_btns > button {
+    width: 100px;
+    padding: 10px 15px;
+    background-color: #fff;
+    border-radius: 15px;
+    font-weight: bold;
+}
+.post_btns > button:hover {
+    background-color: rgb(255, 72, 72);
+    box-shadow: 0 0 5px #000000;
+}
+
+
